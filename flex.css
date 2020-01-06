@@ -1,0 +1,22 @@
+.flex-container{
+    display: inline-flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+
+}
+
+.element-1 {
+    order: 3;
+}
+
+.element-2 {
+    order: 4;
+}
+
+.element-3 {
+    order: 1;
+}
+
+.element-4 {
+    order: 2;
+}

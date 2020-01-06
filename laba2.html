@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<style>
+		@import url(styles.css);
+		@import url(style.css);
+		@import url(flex.css);
+		body {background-color: #B0E0E6;} 
+		
+		p.Big {
+         font-family: arial, helvetica, sans-serif;
+         color: blue; 
+		}
+      
+		div#First {
+			background-color: silver; 
+		}
+		
+		#box1 {
+			position:absolute;
+			bottom: 50px;
+			right: 50px;
+			background: green;
+			width: 50px;
+			height:50px;
+			padding:2px;
+			font-family:arial;
+		}
+		
+		#box2 {
+			position:relative;
+			top: 50px;
+			left: 100px;
+			background: yellow;
+			width: 50px;
+			height:50px;
+			padding:2px;
+			font-family:arial;
+		}
+		
+		.layer1 {
+			float: left;
+			background: #fd0;
+			border: 1px solid black;
+			padding: 10px;
+			margin-right: 20px;
+			width: 3%;
+		}
+		
+		</style>
+		<style type="text/css">
+		h2 { 
+			font-size: 120%; 
+			font-family: Verdana, Arial, Helvetica, sans-serif; 
+			color: darkcyan;
+		}
+		</style>
+	</head>
+	<body>
+	<div class="layer1">text<br>
+	text<br>
+	text<br>
+	text</div>
+		<div>text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text<br>
+		text</div>
+		<h1 style="color:steelblue;">some text 1</h1>
+		<h2>some text 2</h2>
+	
+		<div id="First">
+			<p class="Big">
+			some text 3
+			</p>
+		</div>
+			<h3> some text 4 </h3>
+		<div id="box1">
+		some text
+		</div>
+		<div id="box2">
+		some text
+		</div>
+		<h4>some text 5</h4>
+	<style>
+        .Square
+        {
+            background: red;
+            width: 250px;
+            height: 250px;
+            transition: 3ns;
+        }
+        #secondRadio:checked ~ .Square
+        {background: green}
+        #thirdRadio:checked ~ .Square
+        {background: blue}
+    </style>
+    <input type="radio" checked="checked" name="firstRadio"/>
+    <input type="radio" name="firstRadio" id="secondRadio"/>
+    <input type="radio" name="firstRadio" id="thirdRadio"/> 
+        <div class="Square"></div>
+	<div class="flex-container">
+	     <div class="flex-element-first element-1">Я ПЕРВЫЙ</div>
+        <div class="flex-element-third-second element-2">Я ВТОРОЙ</div>
+	    <div class="flex-element-third-second element-3">Я ТРЕТИЙ</div>
+        <div class="flex-element-four element-4">Я ЧЕТВЕРТЫЙ</div>
+    </div>
+	</body> 
+</html>

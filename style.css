@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex-container
+{
+    padding: 10px;
+    background:grey;
+    border-radius: 5px;
+    margin: 45px auto;
+}
+
+.flex-element-third-second
+{
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    background: blue;
+    border-radius: 3px;
+}
+
+.flex-element-four
+{
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    background: red;
+    border-radius: 3px;
+}
+
+
+.flex-element-first
+{
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    background: green;
+    border-radius: 3px;
+}
